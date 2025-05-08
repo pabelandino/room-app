@@ -3,6 +3,7 @@ import { Image } from 'expo-image';
 import {useState} from 'react';
 import {FocusType} from '@/constants/FocusType';
 import {FocusMenu} from '@/constants/FocusMenu';
+import {Colors} from '@/constants/Colors';
 
 
 const BottomMenu = () => {
@@ -32,14 +33,14 @@ const BottomMenu = () => {
 
 const styles = StyleSheet.create({
     container: {
-      backgroundColor:'black',
+      backgroundColor:Colors.bgBlack,
         flexDirection:'row',
         padding:6,
         paddingHorizontal:8,
         borderRadius: 30,
 
         // Shadow for iOS
-        shadowColor: '#000',
+        shadowColor: Colors.bgBlack,
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.15,
         shadowRadius: 6,

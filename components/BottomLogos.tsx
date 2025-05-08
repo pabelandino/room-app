@@ -1,5 +1,6 @@
 import {ScrollView, StyleSheet, View, Image, Animated} from 'react-native';
 import {useEffect, useRef} from 'react';
+import {Colors} from '@/constants/Colors';
 
 const logos = [
     require('@/assets/images/kohler-logo.png'),
@@ -44,7 +45,7 @@ const BottomLogos = () => {
                 }}
             >
                 {logos.map((logo, index) => (
-                    <Image key={index} tintColor="#A9A9A9" source={logo} style={styles.image} />
+                    <Image key={index} tintColor={Colors.imageTintColor} source={logo} style={styles.image} />
                 ))}
             </Animated.View>
         </View>

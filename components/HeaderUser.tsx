@@ -1,4 +1,5 @@
 import {Text, View, StyleSheet, Image} from 'react-native';
+import {Colors} from '@/constants/Colors';
 
 const HeaderUser = () => {
     const avatar = require('@/assets/images/avatar.jpg')
@@ -35,11 +36,11 @@ const styles = StyleSheet.create({
     },
     nameText:{
         fontSize:20,
-        color:'gray'
+        color:Colors.gray
     },
     descriptionText:{
         fontSize:20,
-        color:'black'
+        color: Colors.descriptionTextColor
     },
     avatar:{
         width:60,

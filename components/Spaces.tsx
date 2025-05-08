@@ -1,4 +1,5 @@
 import {Text, View, StyleSheet, ScrollView, Image, TouchableOpacity} from 'react-native';
+import {Colors} from '@/constants/Colors';
 
 const Spaces = () => {
     const images = [
@@ -76,29 +77,29 @@ const styles = StyleSheet.create({
     applyButton:{
         padding:6,
         paddingHorizontal:12,
-        backgroundColor :'white',
+        backgroundColor:Colors.bgWhite,
         borderRadius: 14
     },
     applyText:{
-        color:'black'
+        color: Colors.descriptionTextColor
     },
     detailsButton:{
         padding:6,
         paddingHorizontal:12,
         borderWidth:1,
-        borderColor:'white',
+        borderColor:Colors.bgWhite,
         borderRadius: 14
     },
     detailsText: {
-        color:'white'
+        color:Colors.bgWhite
     },
     title:{
         fontSize:26,
-        color:'white',
+        color:Colors.bgWhite,
     },
     description:{
         fontSize:18,
-        color:'white'
+        color:Colors.bgWhite
     },
     image:{
         width: '100%',
