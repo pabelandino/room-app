@@ -47,7 +47,8 @@ Although the app runs on Expo Go, the project also includes native build configu
 
 3. Start metro:
    ```bash
-   yarn start
+   cd ..       |This es to go back to the root folder
+   yarn start  |This is to start the services
 
 4. Run on Android:
    ```bash
