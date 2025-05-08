@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     },
     menuContainer:{
         position: 'absolute',
-        bottom: 20,
+        bottom: 50,
         left: 20,
     },
     buttonContainer:{

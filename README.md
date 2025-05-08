@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# Welcome to my Expo app
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+---
 
-1. Install dependencies
+## 📽 Demo Video
+
+You can watch a short demonstration of the app in action by clicking the image below:
+
+[![Watch the video](https://img.youtube.com/vi/39MPfqDhghQ/0.jpg)](https://youtu.be/39MPfqDhghQ)
+
+---
+
+## 📱 APK for Android
+
+To test the app on a physical Android device, you can find the `.apk` file inside the `build/` directory of this repository.
+
+The app is not currently available on TestFlight as my personal Apple Developer account is temporarily inactive. I expect to regain access soon, at which point the app will be uploaded and made available for testing.
+
+---
+
+## 🚀 Quick Testing with Expo Go
+
+The app works perfectly with **Expo Go** for quick testing and development. You can scan the QR code shown after starting the project with Expo and begin testing immediately on your device.
+
+---
+
+## ⚙️ Native Build Options
+
+Although the app runs on Expo Go, the project also includes native build configurations. The native Android and iOS folders were generated using `expo prebuild`, allowing you to create full native builds when required.
+
+---
+
+## 🧑‍💻 Get started
+
+1. Install dependencies:
 
    ```bash
-   npm install
-   ```
+   yarn
 
-2. Start the app
+2. Install iOS dependencies:
 
    ```bash
-   npx expo start
-   ```
+   cd ios
+   pod install
 
-In the output, you'll find options to open the app in a
+3. Start metro:
+   ```bash
+   yarn start
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+4. Run on Android:
+   ```bash
+   Just type the letter 'a'
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5. Run on iOS:
+   ```bash
+   Just type the letter 'i'

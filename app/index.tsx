@@ -74,7 +74,8 @@ const styles = StyleSheet.create({
     },
     footer: {
         zIndex:3,
-        marginBottom: 42,
+        marginTop:10,
+        marginBottom: 35,
         position:'relative'
     },
     gradient: {
